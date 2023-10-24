@@ -1,0 +1,13 @@
+html {
+     /*for å få siden til å dekke hele veiwporten*/
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url('bilder/dytopiskFiction.jpg');
+    background-repeat: no-repeat;
+    /*
+   Gjør at bilde holder seg i midten hele tiden.
+   Horisontalt og vertikalt.
+   */
+    background-position: center center;
+}
