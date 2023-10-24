@@ -1,7 +1,6 @@
 html {
      /*for å få siden til å dekke hele veiwporten*/
     max-width: 100%;
-    height: auto;
     background-size: cover;
     background-image: url('bilder/lampe.jpg');
     background-repeat: no-repeat;
