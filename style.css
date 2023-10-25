@@ -1,12 +1,19 @@
-html {
-     /*for å få siden til å dekke hele veiwporten*/
-    max-width: 100%;
+body {
     background-size: cover;
-    background-image: url('bilder/lampe.jpg');
+
+    /*Path hvor bildet er hentet fra*/
+    background-image: url('bilder/mørkSkog.jpg');
+    /*
+    Gjør at bide legges til en gang til selv om bilde er kankje er for lite i
+    forhold til viewporten. 
+    */
     background-repeat: no-repeat;
+
+    /*Holder fast bildet på nettsiden.*/
+    background-attachment: fixed;
     /*
    Gjør at bilde holder seg i midten hele tiden.
-   Horisontalt og vertikalt.
+   Horisontalt og vertikalt. Så en center for horisontalt og en for vertikalt
    */
     background-position: center center;
 }
