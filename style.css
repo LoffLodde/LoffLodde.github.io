@@ -2,7 +2,7 @@ body {
     background-size: cover;
 
     /*Path hvor bildet er hentet fra*/
-    background-image: url('bilder/mørkSkog.jpg');
+    background-image: url('bilder/lampe.jpg');
     /*
     Gjør at bide legges til en gang til selv om bilde er kankje er for lite i
     forhold til viewporten. 
